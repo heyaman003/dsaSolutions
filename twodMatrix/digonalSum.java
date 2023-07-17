@@ -42,6 +42,7 @@ public class digonalSum {
                     sum=sum+arr[i][i];
                     if(i!=n-i)
                     sum=sum+arr[i][n-i];
+                    
               }
               return sum;
              
