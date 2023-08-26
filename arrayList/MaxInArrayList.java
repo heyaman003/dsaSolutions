@@ -16,6 +16,7 @@ public class MaxInArrayList {
               System.out.print("the samallest no is : " +returnMin(List));
               System.out.println();
               System.out.print("the greatest no is : " +returnMax(List));
+              List.add(5,10);
        }
 
        static int returnMax(ArrayList<Integer> list) {

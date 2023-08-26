@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class hashset {
        public static void main(String[] args) {
-              String A="aabc";
+              String A="aabcaaccceeerr";
               HashMap<Integer,Character> myMap=new HashMap<>();
         Set<Character> helloset=new HashSet<>();
         StringBuilder s=new StringBuilder();

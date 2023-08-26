@@ -11,13 +11,15 @@ public class Spiralmatrix {
               System.out.print("enetr column no : ");
               int n = sc.nextInt();
               System.out.println();
-            int matrrix[][] = new int[m][n];
-             
-          for (int i = 0; i < matrrix.length; i++) {
-                     for (int j = 0; j < matrrix[i].length; j++) {
-                            matrrix[i][j] = sc.nextInt();
-                     }
-              } 
+              int matrrix[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+
+              /*
+               * for (int i = 0; i < matrrix.length; i++) {
+               * for (int j = 0; j < matrrix[i].length; j++) {
+               * matrrix[i][j] = sc.nextInt();
+               * }
+               * }
+               */
               Spiral(matrrix);
        }
 
