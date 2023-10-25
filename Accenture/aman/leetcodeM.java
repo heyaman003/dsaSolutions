@@ -24,6 +24,7 @@ public class leetcodeM {
             }
         }
         System.out.println(start+""+end);
+        System.out.println('a'-97);
     }
 
 }
